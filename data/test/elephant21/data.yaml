@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 18
+names: ['Raccoon', 'bear', 'buffalo', 'bycicle', 'car', 'clock', 'cow', 'deer', 'dog', 'eagle', 'elephant', 'gaur', 'otherentities', 'person', 'pig', 'tiger', 'umbrella', 'wolf']
+
+roboflow:
+  workspace: ultimate-wfqsc
+  project: elephants_21-p7tzy
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ultimate-wfqsc/elephants_21-p7tzy/dataset/1

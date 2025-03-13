@@ -1,0 +1,44 @@
+description: Ultralytics best model trained on ./newdata/data.yaml
+author: Ultralytics
+date: '2025-03-12T15:53:24.121230'
+version: 8.3.70
+license: AGPL-3.0 License (https://ultralytics.com/license)
+docs: https://docs.ultralytics.com
+stride: 32
+task: detect
+batch: 1
+imgsz:
+- 640
+- 640
+names:
+  0: elephant
+  1: bear
+  2: person
+  3: vehicles
+  4: buffalo
+  5: cheetah
+  6: lion
+  7: tiger
+  8: rock
+  9: racoon
+  10: bicycle
+  11: clock
+  12: cow
+  13: deer
+  14: dog
+  15: eagle
+  16: gaur
+  17: otherentities
+  18: pig
+  19: umbrella
+  20: wolf
+  21: giraffe
+  22: wildboar
+  23: zerbra
+  24: leopard
+  25: monkey
+  26: cat
+  27: goat
+args:
+  batch: 1
+  half: false

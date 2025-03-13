@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Monkey']
+
+roboflow:
+  workspace: monkey-3byip
+  project: monkey-l6seo
+  version: 10
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/monkey-3byip/monkey-l6seo/dataset/10

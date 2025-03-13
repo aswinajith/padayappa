@@ -1,0 +1,6 @@
+train: ./train/images
+val: ./valid/images
+test: ./test/images
+
+nc: 28
+names: ['elephant','bear','person','vehicles','buffalo','cheetah','lion','tiger','rock','racoon','bicycle','clock','cow','deer','dog','eagle','gaur','otherentities','pig','umbrella','wolf','giraffe','wildboar','zerbra','leopard','monkey','cat','goat']

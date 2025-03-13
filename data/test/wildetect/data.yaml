@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 8
+names: ['Bear', 'Cheetah', 'Elephants', 'Humans', 'Lions', 'Tigers', 'Vehicles', 'rock']
+
+roboflow:
+  workspace: ana-qgd0r
+  project: wildlife-detection-nvoaq-dssv3-sjtub
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ana-qgd0r/wildlife-detection-nvoaq-dssv3-sjtub/dataset/1

@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 8
+names: ['deer', 'elephant', 'giraffe', 'human', 'other', 'tiger', 'wild boar', 'zebra']
+
+roboflow:
+  workspace: ana-qgd0r
+  project: south-indian-wild-animals-vukoc
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ana-qgd0r/south-indian-wild-animals-vukoc/dataset/1

@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 14
+names: ['Elephant', 'Leopard', 'Monkey', 'Tiger', 'WildBoar', 'bear', 'buffalo', 'car', 'cat', 'cow', 'deer', 'dog', 'goat', 'person']
+
+roboflow:
+  workspace: ana-qgd0r
+  project: wildsense-4-juy6o
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ana-qgd0r/wildsense-4-juy6o/dataset/1

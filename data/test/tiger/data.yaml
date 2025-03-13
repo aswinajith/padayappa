@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['tiger']
+
+roboflow:
+  workspace: tiger-detection-model
+  project: tiger-detection-for-tas
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/tiger-detection-model/tiger-detection-for-tas/dataset/1

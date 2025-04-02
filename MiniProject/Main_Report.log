@@ -1,0 +1,382 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2025) (preloaded format=pdftex 2025.3.28)  28 MAR 2025 13:13
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**Main_Report.tex
+(./Main_Report.tex
+! Undefined control sequence.
+l.1 \documentclass
+                  [12pt,a4paper]{report}
+? 
+! Undefined control sequence.
+l.3 \usepackage
+               {titlesec}									% Formating Titles
+? 
+! Undefined control sequence.
+l.4 \usepackage
+               {indentfirst}                              	% First line as p...
+
+? 
+! Undefined control sequence.
+l.5 	\setlength
+               \parindent{1cm}                              	% Spacing from ...
+
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   {
+l.5 	\setlength\parindent{
+                          1cm}                              	% Spacing from ...
+
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   {
+l.5 	\setlength\parindent{
+                          1cm}                              	% Spacing from ...
+
+? 
+! Undefined control sequence.
+l.6 	\renewcommand
+                  {\baselinestretch}{1.50}\normalsize       	% Line spacing
+? 
+! Undefined control sequence.
+l.6 	\renewcommand{\baselinestretch
+                                   }{1.50}\normalsize       	% Line spacing
+? 
+! Undefined control sequence.
+l.6 ...wcommand{\baselinestretch}{1.50}\normalsize
+                                                         	% Line spacing
+? 
+! Undefined control sequence.
+l.7 \usepackage
+               {times}                                    	% Font name
+? 
+! Undefined control sequence.
+l.8 \usepackage
+               {anysize}                                  	% Setting page
+? 
+! Undefined control sequence.
+l.9 	\marginsize
+                {1.25in}{.75in}{1in}{1in}
+? 
+! Undefined control sequence.
+l.11 \usepackage
+                {amsmath}									% format multi-line equations
+? 
+! Undefined control sequence.
+l.12 \usepackage
+                {amsfonts}
+? 
+! Undefined control sequence.
+l.13 \usepackage
+                {graphicx}									% Figure width, height, angle,ascept rati...
+
+? 
+! Undefined control sequence.
+l.14 \graphicspath
+                  {{Images/}}
+? 
+! Undefined control sequence.
+l.15 \usepackage
+                {setspace}									% Double spacing
+? 
+! Undefined control sequence.
+l.16 \usepackage
+                {fancyhdr}									% Headers & Footers
+? 
+! Undefined control sequence.
+l.17 \usepackage
+                {nomencl}									% Include List of nomenclature
+? 
+! Undefined control sequence.
+l.18 \usepackage
+                [table]{xcolor}								% Colouring inside tables
+? 
+! Undefined control sequence.
+l.19 \usepackage
+                {multirow}									% Combaining rows or columns in tables
+? 
+! Undefined control sequence.
+l.20 \usepackage
+                {rotating}									% Rotation of figures, tables
+? 
+! Undefined control sequence.
+l.21 \usepackage
+                [hypcap]{caption}							% Captions fonts....
+? 
+! Undefined control sequence.
+l.22 \usepackage
+                {subcaption}									% Caption in minipage. (Subfigure)
+? 
+! Undefined control sequence.
+l.23 \usepackage
+                {array}										% for matrix tables etc
+? 
+! Undefined control sequence.
+l.24 \usepackage
+                {subfig}										% Subfigures (Side to side figure)
+? 
+
+Overfull \hbox (10.71825pt too wide) in paragraph at lines 11--25
+[]\tenrm amsmath ams-fonts graph-icx Im-ages/ setspace fan-cy-hdr nomencl [ta-b
+le]xcolor mul-ti-row ro-tat-ing [hyp-cap]caption|
+
+\hbox(7.5+2.5)x469.75499, glue set - 1.0
+.\hbox(0.0+0.0)x0.0
+.\tenrm a
+.\tenrm m
+.\tenrm s
+.\tenrm m
+.etc.
+
+! Undefined control sequence.
+l.26 \usepackage
+                [overload]{textcase}							% Mahing Upper Case
+? 
+! Undefined control sequence.
+l.27 \usepackage
+                {color, colortbl}							% Defines colors
+? 
+! Undefined control sequence.
+l.28 \usepackage
+                {csquotes}									% Including single quotes or double quotes
+? 
+! Undefined control sequence.
+l.29 \usepackage
+                {makeidx}									% Making Index page
+? 
+! Undefined control sequence.
+l.30 \usepackage
+                {float}										% Forcing the figures in places
+? 
+! Undefined control sequence.
+l.31 \usepackage
+                [most]{tcolorbox}							% Includes colors inside table box
+? 
+! Undefined control sequence.
+l.32 \usepackage
+                [toc,page]{appendix}							% Including Appendix
+? 
+! Undefined control sequence.
+l.33 \usepackage
+                {emptypage} 									% Making empty page in latex when start...
+
+? 
+! Undefined control sequence.
+l.34 \usepackage
+                {pdfpages}									% Including PDF files
+? 
+! Undefined control sequence.
+l.40 \usepackage
+                {tocloft}
+? 
+! Undefined control sequence.
+l.42 \usepackage
+                {enumitem}
+? 
+! Undefined control sequence.
+l.45 \titleformat
+                 {\chapter}[display]
+? 
+! Undefined control sequence.
+l.45 \titleformat{\chapter
+                          }[display]
+? 
+! Undefined control sequence.
+l.46 {\normalfont
+                 \Large\bfseries\centering}
+? 
+! Undefined control sequence.
+l.46 {\normalfont\Large
+                       \bfseries\centering}
+? 
+! Undefined control sequence.
+l.46 {\normalfont\Large\bfseries
+                                \centering}
+? 
+! Missing number, treated as zero.
+<to be read again> 
+                   }
+l.46 {\normalfont\Large\bfseries\centering}
+                                           
+? 
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   }
+l.46 {\normalfont\Large\bfseries\centering}
+                                           
+? 
+! Undefined control sequence.
+l.47 {\chaptertitlename
+                       \ \thechapter}{5pt}{\Large}
+? 
+! Undefined control sequence.
+l.47 {\chaptertitlename\ \thechapter
+                                    }{5pt}{\Large}
+? 
+! Undefined control sequence.
+l.47 {\chaptertitlename\ \thechapter}{5pt}{\Large
+                                                 }
+? 
+! Undefined control sequence.
+l.48 \titlespacing
+                  *{\chapter}{0pt}{-15pt}{35pt} % First: Second: From top; T...
+
+? 
+! Undefined control sequence.
+l.48 \titlespacing*{\chapter
+                            }{0pt}{-15pt}{35pt} % First: Second: From top; T...
+
+? 
+! Undefined control sequence.
+l.49 \titleformat
+                 {\section}{\large\bfseries}{\thesection}{1em}{}
+? 
+! Undefined control sequence.
+l.49 \titleformat{\section
+                          }{\large\bfseries}{\thesection}{1em}{}
+? 
+! Undefined control sequence.
+l.49 \titleformat{\section}{\large
+                                  \bfseries}{\thesection}{1em}{}
+? 
+! Undefined control sequence.
+l.49 \titleformat{\section}{\large\bfseries
+                                           }{\thesection}{1em}{}
+? 
+! Undefined control sequence.
+l.49 ...mat{\section}{\large\bfseries}{\thesection
+                                                  }{1em}{}
+? 
+! Undefined control sequence.
+l.50 \titleformat
+                 {\subsection}{\normalsize\bfseries}{\thesubsection}{1em}{}
+? 
+! Undefined control sequence.
+l.50 \titleformat{\subsection
+                             }{\normalsize\bfseries}{\thesubsection}{1em}{}
+? 
+! Undefined control sequence.
+l.50 \titleformat{\subsection}{\normalsize
+                                          \bfseries}{\thesubsection}{1em}{}
+? 
+! Undefined control sequence.
+l.50 ...leformat{\subsection}{\normalsize\bfseries
+                                                  }{\thesubsection}{1em}{}
+? 
+! Undefined control sequence.
+l.50 ...tion}{\normalsize\bfseries}{\thesubsection
+                                                  }{1em}{}
+? 
+! Undefined control sequence.
+l.51 \renewcommand
+                  {\chaptermark}[1]{\markboth{ \emph{#1}}{}}
+? 
+! Undefined control sequence.
+l.51 \renewcommand{\chaptermark
+                               }[1]{\markboth{ \emph{#1}}{}}
+? 
+! Undefined control sequence.
+l.51 \renewcommand{\chaptermark}[1]{\markboth
+                                             { \emph{#1}}{}}
+? 
+! Undefined control sequence.
+l.51 ...wcommand{\chaptermark}[1]{\markboth{ \emph
+                                                  {#1}}{}}
+? 
+! You can't use `macro parameter character #' in horizontal mode.
+l.51 ...ommand{\chaptermark}[1]{\markboth{ \emph{#
+                                                  1}}{}}
+? 
+! Undefined control sequence.
+l.52 \renewcommand
+                  {\chaptermark}[1]{\markboth{ \emph{#1}}{}}
+? 
+! Undefined control sequence.
+l.52 \renewcommand{\chaptermark
+                               }[1]{\markboth{ \emph{#1}}{}}
+? 
+! Undefined control sequence.
+l.52 \renewcommand{\chaptermark}[1]{\markboth
+                                             { \emph{#1}}{}}
+? 
+! Undefined control sequence.
+l.52 ...wcommand{\chaptermark}[1]{\markboth{ \emph
+                                                  {#1}}{}}
+? 
+! You can't use `macro parameter character #' in horizontal mode.
+l.52 ...ommand{\chaptermark}[1]{\markboth{ \emph{#
+                                                  1}}{}}
+? 
+! Undefined control sequence.
+l.57 \begin
+           {document}
+? 
+! Undefined control sequence.
+l.58 \include
+             {./FrontPage}
+? 
+! Undefined control sequence.
+l.59 \include
+             {./Certificate}
+? 
+! Undefined control sequence.
+l.61 \thispagestyle
+                   {empty}
+? 
+! Undefined control sequence.
+l.62 \makenomenclature
+                      
+? 
+! Undefined control sequence.
+l.63 \renewcommand
+                  {\nomname}{List of Abbreviations}
+? 
+! Undefined control sequence.
+l.63 \renewcommand{\nomname
+                           }{List of Abbreviations}
+? 
+! Undefined control sequence.
+l.66 \newpage
+             
+? 
+! Undefined control sequence.
+l.67 \pagenumbering
+                   {roman}
+? 
+! Undefined control sequence.
+l.69 \newpage
+             
+? 
+! Undefined control sequence.
+l.70 \section
+             *{\begin{center} \Large{ACKNOWLEDGEMENT}\end{center}}
+? 
+! Interruption.
+<to be read again> 
+                   *
+l.70 \section*
+              {\begin{center} \Large{ACKNOWLEDGEMENT}\end{center}}
+? 	
+Type <return> to proceed, S to scroll future error messages,
+R to run without stopping, Q to run quietly,
+I to insert something, E to edit your file,
+H for help, X to quit.
+? 		
+Type <return> to proceed, S to scroll future error messages,
+R to run without stopping, Q to run quietly,
+I to insert something, E to edit your file,
+H for help, X to quit.
+? 	
+Type <return> to proceed, S to scroll future error messages,
+R to run without stopping, Q to run quietly,
+I to insert something, E to edit your file,
+H for help, X to quit.
+? x
+No pages of output.
+PDF statistics:
+ 0 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

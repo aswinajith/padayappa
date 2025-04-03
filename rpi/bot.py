@@ -3,6 +3,7 @@ from picamera2 import Picamera2, Preview
 import requests
 from ultralytics import YOLO
 import time
+from gpiozero import LED
 
 picam2 = Picamera2()
 picam2.preview_configuration.main.size = (1280, 1280)
@@ -45,9 +46,8 @@ def send_telegram_photo(photo_path):
 
 # Load YOLOv8 model
 model = YOLO("best.onnx")
-
-
 elephant_detected = False
+led = LED(17)
 
 while True:
     frame = picam2.capture_array()
@@ -73,12 +73,14 @@ while True:
 
                     # Send the saved image to Telegram
                     send_telegram_photo(photo_path)
-
+                    led.on()
                     elephant_detected = True  # Prevent spam
                     
                     time.sleep(20)
 
+                    led.off()
                     elephant_detected = False
+                    
                     continue
 #    cv2.imshow("YOLOv8 Elephant Detection", frame)
 
